@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
 st.title("top 10 reasons why John is retarded")
-names = ("John","Nathan","Moe")
-selectbox = st.selectbox("names",names)
+data = pd.read_csv("")
+selectbox = st.selectbox("data",names)
 st.write(selectbox)
